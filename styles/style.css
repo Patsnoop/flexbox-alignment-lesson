@@ -1,0 +1,35 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Flexbox Containers */
+.flex-container {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Row Direction */
+.row {
+    flex-direction: row;  /* Items go left to right */
+}
+
+/* Column Direction */
+.column {
+    flex-direction: column; /* Items go top to bottom */
+    height: 300px; /* Give enough space for vertical stacking */
+}
+
+/* Flexbox Items */
+.flex-item {
+    background-color: lightblue;
+    border: 1px solid darkmagenta;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    flex: 1;
+}
