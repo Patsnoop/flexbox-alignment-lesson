@@ -8,6 +8,18 @@
     width: 200px;
     height: 200px;
     border: 2px solid white;
+    /* justify-content: center;
+    align-items: center;
+    display: flex; */
+}
+
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .container1{
@@ -29,5 +41,4 @@
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    
 }
